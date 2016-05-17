@@ -14,7 +14,7 @@ chi_hr:
   encoding: utf8
   reconnect: false
   username: sa
-  password: P@ssw0rd
+  password: 123456
   host: hrdb
   timeout: 25
   database: CHISQL02
