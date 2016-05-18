@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
-
+gem 'activerecord-import'
 # sqlserver 2008 
 gem 'activerecord-sqlserver-adapter'
 gem 'tiny_tds'
-
+gem 'awesome_print'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.14'

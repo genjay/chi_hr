@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+ 
+  keys,values=[],[]
+
+  keys =ChiHr::Person.column_names
+
+ChiHr::Person.all.each do |i|
+  values << i.attributes.values
+end; true
+ 
+Employee.import keys,values 
