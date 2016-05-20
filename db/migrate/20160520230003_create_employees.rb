@@ -5,14 +5,14 @@ class CreateEmployees < ActiveRecord::Migration
       t.string :OUguid
       t.string :empid
       t.string :EmpName
-      t.datetime :ArriveDate
-      t.datetime :LeaveDate
+      t.string :ArriveDate
+      t.string :LeaveDate
       t.string :CardNo
       t.string :DepGuid
       t.string :Overtypeguid
       t.string :isCheckIn_Z03
       t.string :sex_z02
-      t.date :BirthDay
+      t.string :BirthDay
       t.string :IDNumber
       t.string :Marriage_Z13
       t.string :type_Z12
@@ -26,7 +26,7 @@ class CreateEmployees < ActiveRecord::Migration
       t.string :type_Z15
       t.string :type_Z16
       t.string :type_Z17
-      t.decimal :tax1_rate
+      t.integer :tax1_rate
       t.decimal :Welfare_rate
       t.string :title_name
 

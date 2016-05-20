@@ -15,7 +15,7 @@ chi_hr:
   reconnect: false
   username: sa
   password: P@ssw0rd
-  host: hrdb
+  host: hrdb.microjet.com.tw
   timeout: 25
   database: CHISQL02
 
